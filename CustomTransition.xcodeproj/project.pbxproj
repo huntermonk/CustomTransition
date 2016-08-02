@@ -16,12 +16,11 @@
 		655649C61D50620B00D6F440 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655649C51D50620B00D6F440 /* CardCollectionViewCell.swift */; };
 		655649CF1D50647100D6F440 /* PetsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655649CE1D50647100D6F440 /* PetsViewController.storyboard */; };
 		655649D11D50648100D6F440 /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655649D01D50648100D6F440 /* PetsViewController.swift */; };
-		65BF6B8C1D506AB3001E0441 /* DismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BF6B8B1D506AB3001E0441 /* DismissAnimationController.swift */; };
 		65BF6B8E1D506B13001E0441 /* AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BF6B8D1D506B13001E0441 /* AnimationHelper.swift */; };
-		65BF6B911D506CAF001E0441 /* PresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BF6B901D506CAF001E0441 /* PresentAnimationController.swift */; };
 		65BF6B941D506F00001E0441 /* SwipeInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BF6B931D506F00001E0441 /* SwipeInteractionController.swift */; };
 		65BF6B971D50707C001E0441 /* PictureViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BF6B961D50707C001E0441 /* PictureViewController.storyboard */; };
 		65BF6B991D50708E001E0441 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BF6B981D50708E001E0441 /* PictureViewController.swift */; };
+		65BF6B9E1D511245001E0441 /* PopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BF6B9D1D511245001E0441 /* PopAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,12 +35,11 @@
 		655649C51D50620B00D6F440 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		655649CE1D50647100D6F440 /* PetsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PetsViewController.storyboard; sourceTree = "<group>"; };
 		655649D01D50648100D6F440 /* PetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsViewController.swift; sourceTree = "<group>"; };
-		65BF6B8B1D506AB3001E0441 /* DismissAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissAnimationController.swift; sourceTree = "<group>"; };
 		65BF6B8D1D506B13001E0441 /* AnimationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
-		65BF6B901D506CAF001E0441 /* PresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentAnimationController.swift; sourceTree = "<group>"; };
 		65BF6B931D506F00001E0441 /* SwipeInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeInteractionController.swift; sourceTree = "<group>"; };
 		65BF6B961D50707C001E0441 /* PictureViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PictureViewController.storyboard; sourceTree = "<group>"; };
 		65BF6B981D50708E001E0441 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		65BF6B9D1D511245001E0441 /* PopAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,8 +157,7 @@
 		65BF6B921D506CF3001E0441 /* Animation Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				65BF6B8B1D506AB3001E0441 /* DismissAnimationController.swift */,
-				65BF6B901D506CAF001E0441 /* PresentAnimationController.swift */,
+				65BF6B9D1D511245001E0441 /* PopAnimator.swift */,
 			);
 			name = "Animation Controllers";
 			sourceTree = "<group>";
@@ -256,8 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65BF6B941D506F00001E0441 /* SwipeInteractionController.swift in Sources */,
-				65BF6B911D506CAF001E0441 /* PresentAnimationController.swift in Sources */,
-				65BF6B8C1D506AB3001E0441 /* DismissAnimationController.swift in Sources */,
+				65BF6B9E1D511245001E0441 /* PopAnimator.swift in Sources */,
 				65BF6B8E1D506B13001E0441 /* AnimationHelper.swift in Sources */,
 				655649C01D50614E00D6F440 /* PetCardStore.swift in Sources */,
 				655649A71D505B1F00D6F440 /* AppDelegate.swift in Sources */,
