@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Picture View Controller-->
@@ -19,24 +18,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YkF-0W-iXQ">
-                                <rect key="frame" x="20" y="77" width="560" height="523"/>
+                                <rect key="frame" x="0.0" y="92" width="600" height="508"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pet's name." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGg-kE-VeY">
-                                <rect key="frame" x="20" y="28" width="560" height="41"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="92"/>
+                                <color key="backgroundColor" red="0.25490196079999999" green="0.67843137249999996" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="92" id="atg-aA-Hus"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="34"/>
-                                <color key="textColor" red="0.22490592277486909" green="0.22490592277486909" blue="0.22490592277486909" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.25490196079999999" green="0.67843137249999996" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="YGg-kE-VeY" secondAttribute="trailing" id="IKV-CQ-ngu"/>
-                            <constraint firstItem="YGg-kE-VeY" firstAttribute="top" secondItem="IEb-30-Gdq" secondAttribute="bottom" constant="8" id="IaK-Pm-atP"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="YkF-0W-iXQ" secondAttribute="trailing" id="QCS-dY-h4f"/>
-                            <constraint firstItem="YkF-0W-iXQ" firstAttribute="top" secondItem="YGg-kE-VeY" secondAttribute="bottom" constant="8" id="Rvj-MN-4KI"/>
-                            <constraint firstItem="YGg-kE-VeY" firstAttribute="leading" secondItem="NCx-c8-4R8" secondAttribute="leadingMargin" id="W64-SD-1m3"/>
-                            <constraint firstItem="YkF-0W-iXQ" firstAttribute="leading" secondItem="NCx-c8-4R8" secondAttribute="leadingMargin" id="a9f-2J-iXt"/>
-                            <constraint firstItem="FFD-Ga-ZS2" firstAttribute="top" secondItem="YkF-0W-iXQ" secondAttribute="bottom" id="kcs-tH-32R"/>
+                            <constraint firstAttribute="trailing" secondItem="YkF-0W-iXQ" secondAttribute="trailing" id="7na-Wh-eL5"/>
+                            <constraint firstItem="YGg-kE-VeY" firstAttribute="leading" secondItem="NCx-c8-4R8" secondAttribute="leading" id="9Cb-kt-87P"/>
+                            <constraint firstAttribute="trailing" secondItem="YGg-kE-VeY" secondAttribute="trailing" id="FZB-uD-ROW"/>
+                            <constraint firstItem="FFD-Ga-ZS2" firstAttribute="top" secondItem="YkF-0W-iXQ" secondAttribute="bottom" id="Q3x-Jw-hbn"/>
+                            <constraint firstItem="YkF-0W-iXQ" firstAttribute="leading" secondItem="NCx-c8-4R8" secondAttribute="leading" id="gtZ-aU-say"/>
+                            <constraint firstItem="YGg-kE-VeY" firstAttribute="top" secondItem="NCx-c8-4R8" secondAttribute="top" id="iWh-rQ-tIr"/>
+                            <constraint firstItem="YkF-0W-iXQ" firstAttribute="top" secondItem="YGg-kE-VeY" secondAttribute="bottom" id="kN0-tQ-mh3"/>
                         </constraints>
                     </view>
                     <connections>
