@@ -9,4 +9,4 @@ When one of the cells is tapped, we expand the cell while simulateously fading i
 
 # Known Issue
 
-If the transition is cancelled, the corners "jump" from the picture view's current corner radius to 25, and then to 0.
+If the transition is cancelled, the corner radius of the picture view "jumps" from the current radius, to 25, and then to 0.
