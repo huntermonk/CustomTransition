@@ -1,6 +1,6 @@
 //
 //  PopAnimator.swift
-//  BeginnerCook
+//  CustomTransition
 //
 //  Created by Hunter Monk on 8/1/16.
 //  Copyright © 2016 Underplot ltd. All rights reserved.
@@ -67,14 +67,30 @@ extension PopAnimator: UIViewControllerAnimatedTransitioning {
 
             pictureView.center = CGPoint(x: CGRectGetMidX(finalFrame), y: CGRectGetMidY(finalFrame))
             }) { (_) in
-                transitionContext.completeTransition(true)
+                transitionContext.completeTransition(!transitionContext.transitionWasCancelled())
+
+                if transitionContext.transitionWasCancelled() {
+                    self.resetCorners(pictureView)
+                }
         }
 
+        roundCorners(transitionContext.transitionWasCancelled(), scale: xScaleFactor, pictureView: pictureView)
+
+    }
+
+    func resetCorners(pictureView: UIView) {
+        pictureView.layer.cornerRadius = 0
+    }
+
+    func roundCorners(transitionCancelled: Bool, scale: CGFloat, pictureView: UIView) {
+
         let round = CABasicAnimation(keyPath: "cornerRadius")
-        round.fromValue = presenting ? 25 / xScaleFactor : 0
-        round.toValue = presenting ? 0 : 25 / xScaleFactor
+
+        round.fromValue = presenting ? 25 / scale : 0
+        round.toValue = presenting ? 0 : 25 / scale
         round.duration = duration / 2
         pictureView.layer.addAnimation(round, forKey: nil)
-        pictureView.layer.cornerRadius = presenting ? 0 : 25 / xScaleFactor
+        pictureView.layer.cornerRadius = presenting ? 0 : 25 / scale
+
     }
 }
