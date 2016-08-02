@@ -16,7 +16,6 @@
 		655649C61D50620B00D6F440 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655649C51D50620B00D6F440 /* CardCollectionViewCell.swift */; };
 		655649CF1D50647100D6F440 /* PetsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655649CE1D50647100D6F440 /* PetsViewController.storyboard */; };
 		655649D11D50648100D6F440 /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655649D01D50648100D6F440 /* PetsViewController.swift */; };
-		65BF6B8E1D506B13001E0441 /* AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BF6B8D1D506B13001E0441 /* AnimationHelper.swift */; };
 		65BF6B941D506F00001E0441 /* SwipeInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BF6B931D506F00001E0441 /* SwipeInteractionController.swift */; };
 		65BF6B971D50707C001E0441 /* PictureViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BF6B961D50707C001E0441 /* PictureViewController.storyboard */; };
 		65BF6B991D50708E001E0441 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BF6B981D50708E001E0441 /* PictureViewController.swift */; };
@@ -35,7 +34,6 @@
 		655649C51D50620B00D6F440 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		655649CE1D50647100D6F440 /* PetsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PetsViewController.storyboard; sourceTree = "<group>"; };
 		655649D01D50648100D6F440 /* PetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsViewController.swift; sourceTree = "<group>"; };
-		65BF6B8D1D506B13001E0441 /* AnimationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
 		65BF6B931D506F00001E0441 /* SwipeInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeInteractionController.swift; sourceTree = "<group>"; };
 		65BF6B961D50707C001E0441 /* PictureViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PictureViewController.storyboard; sourceTree = "<group>"; };
 		65BF6B981D50708E001E0441 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
@@ -77,7 +75,6 @@
 				65BF6B951D506F03001E0441 /* Interaction Controllers */,
 				655649C71D50621500D6F440 /* Views */,
 				655649C11D50615300D6F440 /* Data */,
-				65BF6B8F1D506B16001E0441 /* Animations */,
 				655649C41D50616600D6F440 /* Models */,
 				655649B91D505FB700D6F440 /* UI */,
 				655649B81D505C8600D6F440 /* Supporting Files */,
@@ -144,14 +141,6 @@
 				655649D01D50648100D6F440 /* PetsViewController.swift */,
 			);
 			name = Pets;
-			sourceTree = "<group>";
-		};
-		65BF6B8F1D506B16001E0441 /* Animations */ = {
-			isa = PBXGroup;
-			children = (
-				65BF6B8D1D506B13001E0441 /* AnimationHelper.swift */,
-			);
-			name = Animations;
 			sourceTree = "<group>";
 		};
 		65BF6B921D506CF3001E0441 /* Animation Controllers */ = {
@@ -254,7 +243,6 @@
 			files = (
 				65BF6B941D506F00001E0441 /* SwipeInteractionController.swift in Sources */,
 				65BF6B9E1D511245001E0441 /* PopAnimator.swift in Sources */,
-				65BF6B8E1D506B13001E0441 /* AnimationHelper.swift in Sources */,
 				655649C01D50614E00D6F440 /* PetCardStore.swift in Sources */,
 				655649A71D505B1F00D6F440 /* AppDelegate.swift in Sources */,
 				655649C61D50620B00D6F440 /* CardCollectionViewCell.swift in Sources */,
