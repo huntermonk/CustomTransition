@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="84K-kw-xhO">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Pets View Controller-->
+        <scene sceneID="p8f-zi-wf0">
+            <objects>
+                <viewController id="84K-kw-xhO" customClass="PetsViewController" customModule="CustomTransition" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2jq-7w-SMI"/>
+                        <viewControllerLayoutGuide type="bottom" id="iY4-3O-m6p"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PtM-r4-icR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="sc6-wF-iFy">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="07m-YH-Yor">
+                                    <size key="itemSize" width="360" height="506"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="xK7-xN-1tL" customClass="CardCollectionViewCell" customModule="CustomTransition" customModuleProvider="target">
+                                        <rect key="frame" x="120" y="0.0" width="360" height="506"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="360" height="506"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The pet's description." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7iV-NE-T67">
+                                                    <rect key="frame" x="8" y="192" width="344" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <color key="backgroundColor" red="0.25490196079999999" green="0.67843137249999996" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailingMargin" secondItem="7iV-NE-T67" secondAttribute="trailing" id="DEq-B5-9Mc"/>
+                                            <constraint firstItem="7iV-NE-T67" firstAttribute="leading" secondItem="xK7-xN-1tL" secondAttribute="leadingMargin" id="b6C-qZ-D3Z"/>
+                                            <constraint firstItem="7iV-NE-T67" firstAttribute="centerY" secondItem="xK7-xN-1tL" secondAttribute="centerY" multiplier="0.8" id="kCT-s9-JCs"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="descriptionLabel" destination="7iV-NE-T67" id="DwV-ym-1jn"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="84K-kw-xhO" id="n7U-ub-4Nz"/>
+                                    <outlet property="delegate" destination="84K-kw-xhO" id="1iH-xV-mgi"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sc6-wF-iFy" firstAttribute="top" secondItem="2jq-7w-SMI" secondAttribute="bottom" id="6cK-AD-CMX"/>
+                            <constraint firstItem="sc6-wF-iFy" firstAttribute="leading" secondItem="PtM-r4-icR" secondAttribute="leading" id="QGn-9y-RYi"/>
+                            <constraint firstItem="iY4-3O-m6p" firstAttribute="top" secondItem="sc6-wF-iFy" secondAttribute="bottom" id="eI8-v4-f0f"/>
+                            <constraint firstAttribute="trailing" secondItem="sc6-wF-iFy" secondAttribute="trailing" id="ftk-qz-ilA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="sc6-wF-iFy" id="Thd-CW-AZn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n7C-Ah-s6G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="254" y="545"/>
+        </scene>
+    </scenes>
+</document>
