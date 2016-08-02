@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		655649A71D505B1F00D6F440 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655649A61D505B1F00D6F440 /* AppDelegate.swift */; };
-		655649A91D505B1F00D6F440 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655649A81D505B1F00D6F440 /* ViewController.swift */; };
-		655649AC1D505B1F00D6F440 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655649AA1D505B1F00D6F440 /* Main.storyboard */; };
 		655649AE1D505B1F00D6F440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655649AD1D505B1F00D6F440 /* Assets.xcassets */; };
 		655649B11D505B1F00D6F440 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655649AF1D505B1F00D6F440 /* LaunchScreen.storyboard */; };
+		655649BF1D50614E00D6F440 /* Pets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 655649BD1D50614E00D6F440 /* Pets.plist */; };
+		655649C01D50614E00D6F440 /* PetCardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655649BE1D50614E00D6F440 /* PetCardStore.swift */; };
+		655649C31D50616300D6F440 /* PetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655649C21D50616300D6F440 /* PetCard.swift */; };
+		655649C61D50620B00D6F440 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655649C51D50620B00D6F440 /* CardCollectionViewCell.swift */; };
+		655649CF1D50647100D6F440 /* PetsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655649CE1D50647100D6F440 /* PetsViewController.storyboard */; };
+		655649D11D50648100D6F440 /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655649D01D50648100D6F440 /* PetsViewController.swift */; };
+		65BF6B8C1D506AB3001E0441 /* DismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BF6B8B1D506AB3001E0441 /* DismissAnimationController.swift */; };
+		65BF6B8E1D506B13001E0441 /* AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BF6B8D1D506B13001E0441 /* AnimationHelper.swift */; };
+		65BF6B911D506CAF001E0441 /* PresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BF6B901D506CAF001E0441 /* PresentAnimationController.swift */; };
+		65BF6B941D506F00001E0441 /* SwipeInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BF6B931D506F00001E0441 /* SwipeInteractionController.swift */; };
+		65BF6B971D50707C001E0441 /* PictureViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BF6B961D50707C001E0441 /* PictureViewController.storyboard */; };
+		65BF6B991D50708E001E0441 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BF6B981D50708E001E0441 /* PictureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		655649A31D505B1F00D6F440 /* CustomTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		655649A61D505B1F00D6F440 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		655649A81D505B1F00D6F440 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		655649AB1D505B1F00D6F440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		655649AD1D505B1F00D6F440 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		655649B01D505B1F00D6F440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		655649B21D505B1F00D6F440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655649BD1D50614E00D6F440 /* Pets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Pets.plist; sourceTree = "<group>"; };
+		655649BE1D50614E00D6F440 /* PetCardStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCardStore.swift; sourceTree = "<group>"; };
+		655649C21D50616300D6F440 /* PetCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCard.swift; sourceTree = "<group>"; };
+		655649C51D50620B00D6F440 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		655649CE1D50647100D6F440 /* PetsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PetsViewController.storyboard; sourceTree = "<group>"; };
+		655649D01D50648100D6F440 /* PetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsViewController.swift; sourceTree = "<group>"; };
+		65BF6B8B1D506AB3001E0441 /* DismissAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissAnimationController.swift; sourceTree = "<group>"; };
+		65BF6B8D1D506B13001E0441 /* AnimationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
+		65BF6B901D506CAF001E0441 /* PresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentAnimationController.swift; sourceTree = "<group>"; };
+		65BF6B931D506F00001E0441 /* SwipeInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeInteractionController.swift; sourceTree = "<group>"; };
+		65BF6B961D50707C001E0441 /* PictureViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PictureViewController.storyboard; sourceTree = "<group>"; };
+		65BF6B981D50708E001E0441 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,112 @@
 		655649A51D505B1F00D6F440 /* CustomTransition */ = {
 			isa = PBXGroup;
 			children = (
-				655649A61D505B1F00D6F440 /* AppDelegate.swift */,
-				655649A81D505B1F00D6F440 /* ViewController.swift */,
-				655649AA1D505B1F00D6F440 /* Main.storyboard */,
-				655649AD1D505B1F00D6F440 /* Assets.xcassets */,
-				655649AF1D505B1F00D6F440 /* LaunchScreen.storyboard */,
-				655649B21D505B1F00D6F440 /* Info.plist */,
+				655649BA1D505FBF00D6F440 /* Controllers */,
+				65BF6B921D506CF3001E0441 /* Animation Controllers */,
+				65BF6B951D506F03001E0441 /* Interaction Controllers */,
+				655649C71D50621500D6F440 /* Views */,
+				655649C11D50615300D6F440 /* Data */,
+				65BF6B8F1D506B16001E0441 /* Animations */,
+				655649C41D50616600D6F440 /* Models */,
+				655649B91D505FB700D6F440 /* UI */,
+				655649B81D505C8600D6F440 /* Supporting Files */,
 			);
 			path = CustomTransition;
+			sourceTree = "<group>";
+		};
+		655649B81D505C8600D6F440 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				655649A61D505B1F00D6F440 /* AppDelegate.swift */,
+				655649AD1D505B1F00D6F440 /* Assets.xcassets */,
+				655649B21D505B1F00D6F440 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		655649B91D505FB700D6F440 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				655649AF1D505B1F00D6F440 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		655649BA1D505FBF00D6F440 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				65BF6B8A1D506A40001E0441 /* Pets */,
+				65BF6B9A1D507093001E0441 /* Picture */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		655649C11D50615300D6F440 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				655649BD1D50614E00D6F440 /* Pets.plist */,
+				655649BE1D50614E00D6F440 /* PetCardStore.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		655649C41D50616600D6F440 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				655649C21D50616300D6F440 /* PetCard.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		655649C71D50621500D6F440 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				655649C51D50620B00D6F440 /* CardCollectionViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		65BF6B8A1D506A40001E0441 /* Pets */ = {
+			isa = PBXGroup;
+			children = (
+				655649CE1D50647100D6F440 /* PetsViewController.storyboard */,
+				655649D01D50648100D6F440 /* PetsViewController.swift */,
+			);
+			name = Pets;
+			sourceTree = "<group>";
+		};
+		65BF6B8F1D506B16001E0441 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				65BF6B8D1D506B13001E0441 /* AnimationHelper.swift */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+		65BF6B921D506CF3001E0441 /* Animation Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				65BF6B8B1D506AB3001E0441 /* DismissAnimationController.swift */,
+				65BF6B901D506CAF001E0441 /* PresentAnimationController.swift */,
+			);
+			name = "Animation Controllers";
+			sourceTree = "<group>";
+		};
+		65BF6B951D506F03001E0441 /* Interaction Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				65BF6B931D506F00001E0441 /* SwipeInteractionController.swift */,
+			);
+			name = "Interaction Controllers";
+			sourceTree = "<group>";
+		};
+		65BF6B9A1D507093001E0441 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				65BF6B961D50707C001E0441 /* PictureViewController.storyboard */,
+				65BF6B981D50708E001E0441 /* PictureViewController.swift */,
+			);
+			name = Picture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +240,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				655649CF1D50647100D6F440 /* PetsViewController.storyboard in Resources */,
+				655649BF1D50614E00D6F440 /* Pets.plist in Resources */,
+				65BF6B971D50707C001E0441 /* PictureViewController.storyboard in Resources */,
 				655649B11D505B1F00D6F440 /* LaunchScreen.storyboard in Resources */,
 				655649AE1D505B1F00D6F440 /* Assets.xcassets in Resources */,
-				655649AC1D505B1F00D6F440 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +255,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655649A91D505B1F00D6F440 /* ViewController.swift in Sources */,
+				65BF6B941D506F00001E0441 /* SwipeInteractionController.swift in Sources */,
+				65BF6B911D506CAF001E0441 /* PresentAnimationController.swift in Sources */,
+				65BF6B8C1D506AB3001E0441 /* DismissAnimationController.swift in Sources */,
+				65BF6B8E1D506B13001E0441 /* AnimationHelper.swift in Sources */,
+				655649C01D50614E00D6F440 /* PetCardStore.swift in Sources */,
 				655649A71D505B1F00D6F440 /* AppDelegate.swift in Sources */,
+				655649C61D50620B00D6F440 /* CardCollectionViewCell.swift in Sources */,
+				655649C31D50616300D6F440 /* PetCard.swift in Sources */,
+				655649D11D50648100D6F440 /* PetsViewController.swift in Sources */,
+				65BF6B991D50708E001E0441 /* PictureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		655649AA1D505B1F00D6F440 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				655649AB1D505B1F00D6F440 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		655649AF1D505B1F00D6F440 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,6 +408,7 @@
 				655649B71D505B1F00D6F440 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
