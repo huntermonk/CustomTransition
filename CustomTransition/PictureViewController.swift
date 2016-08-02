@@ -33,27 +33,13 @@ class PictureViewController: UIViewController {
         super.viewDidLoad()
         petName.text = pet?.name
         imageView.image = pet?.image
+
+        let recognizer = UITapGestureRecognizer(target: self, action: #selector(dismiss))
+        view.addGestureRecognizer(recognizer)
     }
 
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
-
+    func dismiss() {
+        presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
